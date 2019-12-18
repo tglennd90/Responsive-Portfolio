@@ -152,6 +152,7 @@ header::after {
 h2 {
 
     margin-left: 20px;
+    margin-top: 20px;
     color: teal;
     font-family: 'Georgia', Times, "Times New Roman", serif;
 
@@ -175,6 +176,7 @@ h2 {
     margin-left: 100px;
     float: left;
     padding: 0px 15px 0px 15px;
+    
 }
 
 .headername:hover {
@@ -267,7 +269,7 @@ hr {
     float: left;
     width: 150px;
     height: 150px;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
 
 }
 
@@ -293,6 +295,26 @@ p:hover {
         width: 100%;
     }
 
+    .content {
+        width: 60%;
+        margin: 5%;
+    }
+
+    .formfield {
+        width: 98%;
+    }
+
+    textarea {
+        width: 98%;
+    }
+
+    .headername {
+        width: 100px;
+        padding: 30px 15px;
+        margin: 0px 75px;
+    }
+
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -301,12 +323,65 @@ p:hover {
         width: 100%;
     }
 
+    .content {
+        width: inherit;
+        margin: 5%;
+    }
+
+    
+
+    textarea {
+        width: 98%;
+    }
+
+    ul {
+       margin-top: 35px;
+    }
+
+    .headername {
+        width: 100px;
+        padding: 30px 15px;
+        margin: 0px 75px;
+    }
 }
 
 @media screen and (max-width: 640px) {
     
     .html {
-        width: 100%;
+        width: 640px;
+        
     }
 
+    .content {
+        width: inherit;
+        margin: 5%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 98%;
+    }
+
+    ul {
+       margin-top: 35px;
+    }
+
+    .headername {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    header {
+       width: 100%;
+       margin: 0px;
+       padding: 0px;
+   }
+
+   .flag {
+       width: 94%;
+   }
 }
