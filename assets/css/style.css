@@ -1,0 +1,306 @@
+html {
+
+    height: 100%;
+
+}
+
+body {
+    
+    background-image: url("C:/Users/tgd90/Desktop/Basic-Portfolio/assets/images/brickwall/brickwall_@2X.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+}
+
+footer {
+
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    margin-top: auto;
+    position: relative;
+
+}
+
+footer p {
+
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    font-size: xx-small;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.header {
+
+    background: #ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    
+
+}
+
+header::after {
+
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+.content {
+
+    width: 960px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    height: auto;
+    margin: 20px auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.pictures1 {
+
+    width: 150px;
+    height: 150px;
+    margin: 0px 15px 15px 20px;
+    border-radius: 50%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+.pictures2 {
+
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px 15px 20px;
+    border-radius: 25%;
+    opacity: 1; 
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+.flag:hover {
+
+    width: 300px;
+    height: 300px;
+    cursor: none;
+
+}
+
+.container {
+
+    position: relative;
+    width: max-content;
+    display: inline-block;
+
+}
+
+.container:hover .pictures1 {
+
+    opacity: 0.3;
+    cursor: none;
+}
+
+.container:hover .pictures2 {
+
+    opacity: 0.3;
+    cursor: none;
+}
+
+.container:hover .middle {
+
+    opacity: 1;
+    cursor: none;
+}
+
+.picturetext {
+
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.middle {
+
+    transition: .5s ease-in;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+h2 {
+
+    margin-left: 20px;
+    color: teal;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+
+}
+
+.headerlinks {
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: right;
+    padding-top: 4%;
+
+}
+
+.headername {
+
+    background: #4aaaa5;  
+    color: #ffffff;
+    border: 5px solid #4aaaa5;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    float: left;
+    padding: 0px 15px 0px 15px;
+}
+
+.headername:hover {
+
+    background: #666666;
+    color: orange;
+    border-color: orange;
+    font-family: monospace;
+
+}
+
+nav ul {
+
+    list-style: none;
+    margin-right: 75px;
+    margin-bottom: -20px;
+    font-weight: 500;
+}
+
+nav li {
+
+    float: right;
+    
+    
+
+}
+
+nav ul li a {
+
+    color: gray;
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: gray;
+    align-content: center;
+    opacity: 0.7;
+    display: block;
+    background: white;
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    
+
+}
+
+a:hover {
+
+    cursor: pointer;
+    color: teal;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+form {
+
+    margin-left: 20px;
+    
+    
+}
+
+hr {
+
+    margin: 20px;
+
+}
+
+.submitbutton {
+
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: crosshair;
+
+}
+
+.ptitle {
+
+    z-index: 2;
+
+}
+
+.flag {
+
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 0px 10px;
+
+}
+
+p {
+
+    color: #777777;
+    margin-left: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+p:hover {
+
+    background-color: black;
+    font-weight: 600;
+    cursor: none;
+
+}
+
+@media screen and (max-width: 980px) {
+    
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    
+
+
+}
+
+@media screen and (max-width: 640px) {
+    
+
+
+}
