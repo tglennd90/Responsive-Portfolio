@@ -297,12 +297,16 @@ p:hover {
 
 @media screen and (max-width: 768px) {
     
-
+    .html {
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 640px) {
     
-
+    .html {
+        width: 100%;
+    }
 
 }
